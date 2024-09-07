@@ -1,4 +1,4 @@
-import './portfolio.css'
+import './Portfolio.css'
 import portfolio1 from '../../assets/images/portfolio-1.png'
 import portfolio2 from '../../assets/images/portfolio-2.png'
 import portfolio3 from '../../assets/images/portfolio-3.png'
