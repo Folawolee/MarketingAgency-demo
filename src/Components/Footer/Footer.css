@@ -1,0 +1,63 @@
+.footer{
+    margin-top: 60px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-text h1{
+    display: flex;
+    /* width: 205px; */
+    /* height: 79px; */
+    /* justify-content: center;
+    text-align: center;
+    align-items: center; */
+    /* background: #FFF; */
+    color: #E71D36;
+    font-weight: bolder;
+    font-size: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.footer-text p{
+    width: 390px;
+    font-size: 18px;
+    height: 99px;
+    line-height: 30px;
+}
+.footer-company h3{
+    font-size: 24px;
+    font-weight: semibold;
+    color: #2EC4B6;
+}
+.footer-company ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-company ul li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer-latestnews h3{
+    font-size: 24px;
+    font-weight: semibold;
+    color: #2EC4B6;
+}
+.footer-news-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+.footer-bottom p span{
+    color: #2EC4B6;
+}

@@ -1,0 +1,30 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 303px;
+    /* padding: 20px; */
+    border-radius: 30px;
+    background: #fff;
+    border: 1px solid #fff;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+}
+.card-title{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 0;
+    /* margin-top: 20px; */
+}
+.card-description{
+    font-size: 18px;
+    line-height: 28px;
+}
+.card-text{
+    color: #ff1d03;
+    font-size: 18px;
+    
+    
+}
