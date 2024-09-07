@@ -1,5 +1,5 @@
 import BlogCardData from '../../assets/BlogCardData'
-import BlogCard from '../../Cards/BlogCard/BlogCARD.JSX'
+import BlogCard from '../../Cards/BlogCard/BlogCard.jsx'
 import './Blog.css'
 
 const Blog = () => {
