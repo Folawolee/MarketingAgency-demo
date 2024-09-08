@@ -43,7 +43,7 @@
     font-size: 18px;
     font-weight: 400;
 }
-.footer-latestnews h3{
+.footer-latestnews-title{
     font-size: 24px;
     font-weight: semibold;
     color: #2EC4B6;
@@ -51,7 +51,7 @@
 .footer-news-card{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 .footer-bottom{
     display: flex;

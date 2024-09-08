@@ -20,17 +20,17 @@ const Footer = () => {
           <div className='footer-company'>
             <h3>Company</h3>
             <ul>
-              <li>About Us</li>
+              <li>About Us</li> 
               <li>Our Services</li>
               <li>Our Team</li>
               <li>Our Blog</li>
             </ul>
           </div>
           <div className='footer-latestnews'>
-            <h3>Latest News</h3>
-            {/* {NewsCardData.map((news, index) => {
-              return <NewsCard className={`footer-news-card footer-news-${index + 1}`} key={news.id} image={news.image} title={news.title} description={news.description} date={news.date} />
-            })} */}
+            <h3 className='footer-latestnews-title'>Latest News</h3>
+            {NewsCardData.map((news, index) => {
+              return <NewsCard className="footer-news-card" key={index} image={news.image} title={news.title} description={news.description} date={news.date} />
+            })}
           </div>
         </div>
 
